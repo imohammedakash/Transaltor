@@ -5,8 +5,29 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     box-sizing: border-box;
-    background-color: rgb(239, 232, 232);
+    background-color: rgba(171, 171, 171, 0.227);
+    position: relative;
+    /* background: rgb(98,87,55);
+    background: linear-gradient(112deg, rgba(98,87,55,1) 0%, rgba(139,57,57,1) 54%, rgba(139,57,57,1) 80%, rgba(98,87,55,1) 100%); */
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    box-sizing: border-box;
+    text-shadow: 0px 0px 4px rgba(0,0,0);
+  
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+
 }
 li{
     list-style: none;
@@ -17,6 +38,8 @@ li{
     background: rgb(245, 245, 246);
     position: relative;
     padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.313);
 }
 textarea{
     width: 50%;
@@ -90,4 +113,10 @@ button.translate {
     border: none;
     border-radius: 5px;
     background-color: grey;
+}
+.header{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0);
+    margin-bottom: 2rem;
 }

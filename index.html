@@ -1,67 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translatory</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/translate.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/8e8487a383.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/8e8487a383.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-   
-</head>
-
-<body>
+  <body>
+    <div class="header">Translatory</div>
     <div class="container">
-        <div class="wrapper">
-            <div class="text-input">
-                <textarea class="from-text" placeholder="ENTER TEXT"></textarea>
-                <textarea class="to-text" placeholder="TRANSLATED TEXT" readonly></textarea>
-
-            </div>
-            <ul class="controls">
-                <li class="row row-from">
-                    <div class="select-lang-to">
-                        <select name="" id="1">
-
-                        
-                        </select>
-                    </div>
-                    <div class="icon">
-
-                        <i class="fa-sharp fa-solid fa-volume-high"></i>
-                        <i class="fa-regular fa-copy"></i>
-
-
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-solid fa-arrows-left-right-to-line fa-3x"></i>
-                    </div>
-                </li>
-                <li class="row row-to">
-                    <div class="select-lang-from">
-                        <select name="" id="2">
-
-    
-
-                        </select>
-                    </div>
-                    <div class="icon">
-                        <i class="fa-sharp fa-solid fa-volume-high"></i>
-                        <i class="fa-regular fa-copy"></i>
-                    </div>
-                </li>
-            </ul>
-            <div class="button">
-             <button class="translate">Translate</button>
-            </div>
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea class="from-text" placeholder="ENTER TEXT"></textarea>
+          <textarea
+            class="to-text"
+            placeholder="TRANSLATED TEXT"
+            readonly
+          ></textarea>
         </div>
-
+        <ul class="controls">
+          <li class="row row-from">
+            <div class="select-lang-to">
+              <select name="" id="1"></select>
+            </div>
+            <div class="icon">
+              <i class="fa-sharp fa-solid fa-volume-high"></i>
+              <i class="fa-regular fa-copy"></i>
+            </div>
+          </li>
+          <li>
+            <div>
+              <i class="fa-solid fa-arrows-left-right-to-line fa-3x"></i>
+            </div>
+          </li>
+          <li class="row row-to">
+            <div class="select-lang-from">
+              <select name="" id="2"></select>
+            </div>
+            <div class="icon">
+              <i class="fa-sharp fa-solid fa-volume-high"></i>
+              <i class="fa-regular fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+        <div class="button">
+          <button class="translate">Translate</button>
+        </div>
+      </div>
     </div>
-
-</body>
-<script src="countries.js" ></script>
-<script src="script.js" ></script>
+    <div class="footer">
+      Made with &#129293; by <a href="https://mohammedakash.com">Akash</a>
+    </div>
+  </body>
+  <script src="countries.js"></script>
+  <script src="script.js"></script>
 </html>
